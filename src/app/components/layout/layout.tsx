@@ -16,7 +16,7 @@ export default function Layout({ children }: Props) {
         <Sidebar
             currentPage={currentPage}
             sideBarItems={pages}
-            appName="Synthia AI"
+            appName="Vite Mirage Template"
             className={`dark`}
         >
             {children}
